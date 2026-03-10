@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crypterra Capital</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Crypterra Capital</h1>
+<p>Professional Crypto Investment Platform</p>
+<button onclick="scrollToPlans()">View Plans</button>
+</header>
+
+<section id="plans">
+<h2>Investment Plans</h2>
+<div class="plan">
+<h3>Starter</h3>
+<p>Minimum: $200</p>
+<p>Projected Return: 8% Monthly</p>
+<button onclick="invest()">Invest</button>
+</div>
+
+<div class="plan">
+<h3>Professional</h3>
+<p>Minimum: $1000</p>
+<p>Projected Return: 12% Monthly</p>
+<button onclick="invest()">Invest</button>
+</div>
+
+<div class="plan">
+<h3>Institutional</h3>
+<p>Minimum: $5000</p>
+<p>Projected Return: 18% Monthly</p>
+<button onclick="invest()">Invest</button>
+</div>
+</section>
+
+<section id="dashboard">
+<h2>User Dashboard</h2>
+<p id="balance">Balance: $0.00</p>
+<button onclick="deposit()">Deposit Funds</button>
+<button onclick="withdraw()">Withdraw Funds</button>
+</section>
+
+<section id="risk">
+<h2>Risk Disclosure</h2>
+<p>Cryptocurrency investments carry risk due to market volatility. Past performance does not guarantee future results. Always research before investing.</p>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
